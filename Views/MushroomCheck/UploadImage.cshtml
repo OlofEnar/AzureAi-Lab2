@@ -1,0 +1,12 @@
+﻿@{
+	ViewBag.Title = "Mushroom check";
+}
+
+	<div class="mb-4 w-50">
+		<img class="img-fluid" src="/images/logo.png" alt="Logo">
+	</div>
+	<h2 class="mb-5">Upload a mushroom photo</h2>
+	<form asp-action="Predict" method="post" enctype="multipart/form-data" class="d-flex flex-column align-items-center" style="max-width: 800px">
+		<input class="form-control mb-3 w-75" type="file" name="imageFile" />
+		<button type="submit" class="btn" style="width: 120px; background-color: #d99127;">Upload</button>
+	</form>

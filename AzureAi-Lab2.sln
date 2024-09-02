@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAi-Lab2", "AzureAi-Lab2.csproj", "{4A8A70AB-5C19-4404-A8EC-40054D9D6726}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A8A70AB-5C19-4404-A8EC-40054D9D6726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8A70AB-5C19-4404-A8EC-40054D9D6726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8A70AB-5C19-4404-A8EC-40054D9D6726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8A70AB-5C19-4404-A8EC-40054D9D6726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3887B4E0-EC31-4D91-8530-AB83CF768377}
+	EndGlobalSection
+EndGlobal

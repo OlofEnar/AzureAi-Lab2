@@ -1,0 +1,24 @@
+﻿@{
+	ViewBag.Title = "Prediction Result";
+}
+
+<h1 class="mb-3">Prediction Result</h1>
+
+@if (!string.IsNullOrEmpty(ViewBag.PredictionLabel))
+{
+	@if (!string.IsNullOrEmpty(ViewBag.ImagePath))
+	{
+		<div class="container mb-5" style="width: 40%">
+			<img class="w-100" style="border: 8px solid white" src="@ViewBag.ImagePath" alt="Uploaded Mushroom Image" />
+		</div>
+	}
+
+	<h4>The mushroom is predicted to be: <strong>@ViewBag.PredictionLabel</strong></h4>
+	<h4>Prediction Confidence: <strong>@ViewBag.Probability</strong></h4>
+
+	<a asp-action="UploadImage" asp-controller="MushroomCheck" class="btn mt-3" style="width: 120px; background-color: #d99127;">Go back</a>
+}
+else
+{
+	<p>No prediction was made. Please try uploading an image.</p>
+}
